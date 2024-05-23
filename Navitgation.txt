@@ -1,0 +1,9 @@
+Navigation
+    - If the user clicks on a link or a button to navigate onto a new page, that url gets pushed onto the stack 
+    - When going back the old page gets popped off 
+    - We need to use a navigator to move across different screens 
+    - React native has no built in navigation so you need to use a library to add navigation to app 
+        - The two most popular libraries are React Navigation(built in with expo) and React Native Navigation
+        - They have the same goal but different implemenation 
+
+        -- Expo command -npx expo install react-native-screens react-native-safe-area-context -- Already installed

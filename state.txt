@@ -1,0 +1,18 @@
+To create a more dynamic experience
+- State is an object that contains information about a component that we want to track
+- In the object, we use key-value pairs
+- Visualization
+    - Using props we passed data into each of the rooms
+    - But with state we can track values within the room and modfy the house based on its status
+        E.g -- if its messy, clean do this
+            - But when the state changes the whole component re-renders
+            - PURPOSE is to trigger UI updates based on the changes 
+
+Summary
+    - Props: Lets us pass data between components
+    - State: Helps us internally mange data within our components 
+        -REDUX can be used to manage states 
+
+UseEffect 
+    - SideEffect - Something not inside react within our components such as using timers, datafetching, subscriptions which can affect our component 
+    - Use effect allows us to perform side effects in function components and show changes 

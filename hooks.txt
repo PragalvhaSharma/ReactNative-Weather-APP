@@ -1,0 +1,11 @@
+Hooks in React are special functions that allow you to use features like state and lifecycle methods in function components. Here are two main ones:
+- Special functions containing reusable logic 
+- useState: Lets you keep track of a value that can change.
+- useEffect: Lets you run code that has side effects.
+        - We can pass in a dependency array which lets us specify what data when changed triggers a re-render
+
+- Every hook starts with use
+- Rules == 
+     You can only call hooks from inside react functions.
+     Must be called at the top level of a component before the return keyword is used. 
+
